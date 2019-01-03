@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700,700i");
+body {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(http://pshero.com/assets/tutorials/0022/step1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Merriweather', serif;
+}
+
+.board {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.board h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.create-column {
+  border: none;
+  background: #e3e3e3;
+  border-radius: 7px;
+  color: black;
+  margin-bottom: 30px;
+  padding: 8px 50px;
+  outline: none;
+}
+
+.create-column:hover {
+  cursor: pointer;
+  background-color: #888888;
+}
+
+.column {
+  background: white;
+  height: auto;
+  min-height: 500px;
+  border: 1px solid;
+  box-shadow: 5px 10px #888888;
+  margin-right: 5px;
+  margin-bottom: 30px;
+}
+
+.column-title {
+  margin: 0 auto;
+  text-align: center;
+  background: green;
+  color: white;
+  line-height: 2;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.column-card-list {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  font-size: 20px;
+  min-height: 50px;
+}
+
+li {
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+.btn-delete {
+  background-color: #e3e3e3;
+  color: black;
+  border: none;
+  font-size: 16px;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+
+.btn-delete:hover {
+  cursor: pointer;
+  background-color: #888888;
+}
+
+.position {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 50px;
+}
+
+.card {
+  border: none;
+  align-items: center;
+}
+
+.add-card {
+  border: none;
+  background: #e3e3e3;
+  border-radius: 7px;
+  color: black;
+  outline: none;
+}
+
+.add-card:hover {
+  cursor: pointer;
+  background-color: #888888;
+}
+
+p {
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=style.css.map */
