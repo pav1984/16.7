@@ -21,7 +21,7 @@ document.querySelector('#board .create-column').addEventListener('click', functi
             return resp.json();
         })
         .then(function (resp) {
-            var column = new Column(response.id, columnName);
+            var column = new Column(resp.id, columnName);
             board.createColumn(column);
         });
 });
